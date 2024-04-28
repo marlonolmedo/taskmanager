@@ -81,4 +81,4 @@ after the command you can put live the application with command
 php artisan serve
 ```
 
-you will can see the application on http://localhost/, si necesita un puerto en especifico puede agregar ``--port={port}`` en el command
+you will can see the application on http://localhost/, if you need an specific port you could add  ``--port={port}`` on the command.
