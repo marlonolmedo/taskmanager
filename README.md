@@ -34,6 +34,13 @@ php artisan migrate --seed --database=sqlite
 
 need run the two command because on the sqlite work for verify the functionality of the project.
 
+## Build assets
+before put on live the application you need build the assets, you should run the next command
+
+```bash
+npm run build
+```
+
 # run the testing
 after the migration for verify all packages are installed, you can run this command
 
@@ -71,12 +78,8 @@ then on the bash will show you the next messange
 if you see the bash with all tests passed, it's meens the application will works fine.
 
 # deploy application
-before put on live the application you need build the assets, you should run the next command
 
-```bash
-npm run build
-```
-after the command you can put live the application with command
+after making sure the application will run normally you can run the next command for put the application in live
 ```bash
 php artisan serve
 ```
