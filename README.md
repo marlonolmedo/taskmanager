@@ -45,7 +45,7 @@ npm run build
 after the migration for verify all packages are installed, you can run this command
 
 ```bash
-php artisan testing
+php artisan test
 ```
 
 then on the bash will show you the next messange
